@@ -60,8 +60,7 @@ h1, h2 {
 
     position: relative;
 }
-
-#cover-text, #cover-text,h2 {
+#cover-text, #cover-text h2 {
     color: #fff;
 }
 
@@ -73,9 +72,7 @@ h1, h2 {
 animation-name: hero-zoom;
 animation-duration: 5s;
 animation-fill-mode: forwards;
-
 }
-
 /*creates the level of zoom for hero images*/
 @keyframes hero-zoom {
     from {
@@ -85,7 +82,6 @@ animation-fill-mode: forwards;
         transform: scale(1.1);
     }
 }
-
 
 #cover-text {
     font-size: 130%;
@@ -100,5 +96,9 @@ animation-fill-mode: forwards;
     padding-left: 10px;
 
     background-color: rgba(241, 109, 107, .7);
+    
+    bottom: 30px;
+    right: 150px;
+
     position: absolute;
 }
